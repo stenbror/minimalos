@@ -1,8 +1,8 @@
 # MinimalOS
 
-How to build docker environment for building rust OS.
-
-docker build .
+How to build docker environment for building rust OS. \
+\
+docker build . \
 \
 Remeber to change access rights for os folder: \
 \
@@ -15,4 +15,4 @@ Inside docker image, execute script:\
 \
 On the host machine, while qemu is installed on host machine, start with: \
 \
-sudo qemu-system-x86_64 --drive format=raw,file=target/x86_64-minimalos/debug/bootimage-minimalos.bin
+sudo qemu-system-x86_64 --drive format=raw,file=os/target/x86_64-minimalos/debug/bootimage-minimalos.bin
